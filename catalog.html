@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Avion</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__top">
+				<div class="header__search header__mob__right">
+					<button class="header__search">
+						<img src="./img/icons/Search.svg" alt="" />
+					</button>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon">
+							<div class="mobile-nav">
+								<ul class="mobile-nav__list">
+									<li class="mobile-nav__header__icons">
+										<a href="./busket.html" class="header__shopping"> <img src="./img/icons/Shopping--cart.svg" alt=""/></a>
+
+										<a href="#!" class="header__avatar"> <img src="./img/icons/User--avatar.svg" alt=""/></a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Plant pots</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Ceramics</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Tables</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Chairs</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Crockery</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Tableware</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Cutlery</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</button>
+				</div>
+
+				<a href="./index.html" class="header__title">Avion</a>
+				<div class="header__icons">
+					<a href="./busket.html" class="header__shopping"> <img src="./img/icons/Shopping--cart.svg" alt=""/></a>
+
+					<a href="#!" class="header__avatar"> <img src="./img/icons/User--avatar.svg" alt=""/></a>
+				</div>
+			</div>
+			<div class="header__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Plant pots</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Ceramics</a>
+					</li>
+					<li class="nav__item"><a href="#" class="nav__link">Tables</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Chairs</a></li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Crockery</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Tableware</a>
+					</li>
+					<li class="nav__item"><a href="#" class="nav__link">Cutlery</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="catalog__bg">
+				<div class="container">
+					<h1 class="catalog__title">All products</h1>
+				</div>
+			</div>
+
+			<div class="catalog__navbar">
+				<div class="catalog__filters">
+					<div class="filter__wrapper">
+						<button id="dropbtn" class="catalog__filter catalog__filter--mob">
+							Filters
+						</button>
+						<div id="dropmenu" class="drop-menu">
+							<button class="catalog__filter catalog__filter--drop catalog__filter-more ">
+								Category
+							</button>
+
+							<button class="catalog__filter catalog__filter--drop catalog__filter-more">
+								Product type
+							</button>
+							<button class="catalog__filter catalog__filter--drop catalog__filter-more">
+								Price
+							</button>
+							<button class="catalog__filter catalog__filter--drop catalog__filter-more">
+								Brand
+							</button>
+						</div>
+					</div>
+
+					<div class="filter__wrapper">
+						<button id="dropbtn2" class="catalog__filter catalog__filter1">
+							Category
+						</button>
+						<div id="dropmenu2" class="drop-menu">
+							<form action="">
+								<div class="category__input">
+									<input type="checkbox" name="Bedroom " />
+									<label for="Bedroom ">Bedroom </label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Kitchenware" />
+									<label for="Kitchenware">Kitchenware</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Bedroom " />
+									<label for="Bedroom ">Bedroom </label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Kitchenware" />
+									<label for="Kitchenware">Kitchenware</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Bedroom" />
+									<label for="Bedroom">Bedroom</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="filter__wrapper">
+						<button id="dropbtn3" class="catalog__filter catalog__filter2">
+							Product type
+						</button>
+						<div id="dropmenu3" class="drop-menu">
+							<form action="">
+								<div class="category__input">
+									<input type="checkbox" name="Furniture" />
+									<label for="Furniture">Furniture</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Homeware" />
+									<label for="Homeware">Homeware</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Sofas" />
+									<label for="Sofas">Sofas</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Accessories" />
+									<label for="Accessories">Accessories</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Homeware" />
+									<label for="Homeware">Homeware</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="filter__wrapper">
+						<button id="dropbtn4" class="catalog__filter catalog__filter3">
+							Price
+						</button>
+						<div id="dropmenu4" class="drop-menu">
+							<form action="">
+								<div class="category__input">
+									<input type="checkbox" name="0 - 100" />
+									<label for="0 - 100">0-100</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="101 - 250" />
+									<label for="101 - 250">101-250</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="250 +" />
+									<label for="250 +">250+</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="filter__wrapper">
+						<button id="dropbtn5" class="catalog__filter catalog__filter4">
+							Designer
+						</button>
+						<div id="dropmenu5" class="drop-menu">
+							<form action="">
+								<div class="category__input">
+									<input type="checkbox" name="Robert Smith" />
+									<label for="Robert Smith"> Smith</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Liam Gallagher" />
+									<label for="Liam Gallagher"> Gallagher</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Biggie Smalls" />
+									<label for="Biggie Smalls"> Smalls</label>
+								</div>
+								<div class="category__input">
+									<input type="checkbox" name="Thom Yorke" />
+									<label for="Thom Yorke"> Yorke</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="catalog__sort">
+					<p>Sort by:</p>
+					<div class="sort__wrapper">
+						<button id="dropbtn1" class="catalog__sort-btn ">
+							Date added
+						</button>
+						<div id="dropmenu1" class="drop-menu--Sort">
+							<button class="catalog__filter catalog__filter--drop option " data-value="price">
+								Price
+							</button>
+							<button class="catalog__filter catalog__filter--drop option " data-value="Popular">
+								Popular
+							</button>
+							<button class="catalog__filter catalog__filter--drop option " data-value="Date added">
+								Date added
+							</button>
+							<button class="catalog__filter catalog__filter--drop option " data-value="Reviews">
+								Reviews
+							</button>
+							<button class="catalog__filter catalog__filter--drop option " data-value="The best">
+								The best
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="ceramics">
+				<div class="container">
+					<div class="ceramics__wrapper">
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo1.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="./../product.html" class="ceramic__card__title">
+									The Dandy chair
+								</a>
+								<p class="ceramic__card__price">
+									&#163;250
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo2.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									Rustic Vase Set
+								</a>
+								<p class="ceramic__card__price">
+									&#163;155
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo3.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Silky Vase
+								</a>
+								<p class="ceramic__card__price">
+									&#163;125
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo4.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Lucy Lamp
+								</a>
+								<p class="ceramic__card__price">
+									&#163;399
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/catalog/Photo.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="./../product.html" class="ceramic__card__title">
+									The Dandy chair
+								</a>
+								<p class="ceramic__card__price">
+									&#163;250
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/catalog/Photo-1.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									Rustic Vase Set
+								</a>
+								<p class="ceramic__card__price">
+									&#163;155
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/catalog/Photo-2.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Silky Vase
+								</a>
+								<p class="ceramic__card__price">
+									&#163;125
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/catalog/Photo-3.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Lucy Lamp
+								</a>
+								<p class="ceramic__card__price">
+									&#163;399
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo1.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="./../product.html" class="ceramic__card__title">
+									The Dandy chair
+								</a>
+								<p class="ceramic__card__price">
+									&#163;250
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo2.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									Rustic Vase Set
+								</a>
+								<p class="ceramic__card__price">
+									&#163;155
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo3.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Silky Vase
+								</a>
+								<p class="ceramic__card__price">
+									&#163;125
+								</p>
+							</div>
+						</div>
+						<div class="ceramics__card">
+							<div class="ceramics__img">
+								<picture>
+									<img src="./img/ceramics/photo4.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="ceramic__info">
+								<a href="#!" class="ceramic__card__title">
+									The Lucy Lamp
+								</a>
+								<p class="ceramic__card__price">
+									&#163;399
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="view">
+						<a href="#!">View collection</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footter__wrapper">
+					<div class="footer__top">
+						<ul class="footer__list">
+							<li class="footer__title"><p>Menu</p></li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">New arrivals</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Best sellers</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Recently viewed</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Popular this week</a>
+							</li>
+							<li class="footer__item">
+								<a href="./catalog.html" class="footer__link">All products</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__title"><p>Categories</p></li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Crockery</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Furniture</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Homeware</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Plant pots</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Chairs</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Crockery</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__title"><p>Our company</p></li>
+							<li class="footer__item">
+								<a href="./about.html" class="footer__link">About us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Vacancies</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Contact us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Privacy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Returns policy</a>
+							</li>
+						</ul>
+						<form action="" class="footer__form">
+							<p class="footer__title">Join our mailing list</p>
+							<div class="form__btns">
+								<input type="email" required placeholder="your@email.com" />
+								<button class="sign__footer">Sign up</button>
+							</div>
+						</form>
+					</div>
+					<div class="footer__footer">
+						<p class="footer__copyright">
+							Copyright 2022 Avion LTD
+						</p>
+						<ul class="footer__social">
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--linkedin.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--facebook.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--skype.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--twitter.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--pinterest.svg" alt=""/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			function initDropdown(dropbtnId, dropmenuId, dropIconClass) {
+				const dropbtn = document.getElementById(dropbtnId);
+				const dropmenu = document.getElementById(dropmenuId);
+				const dropIcon = document.querySelector(dropIconClass);
+
+				dropbtn.onclick = function() {
+					dropmenu.classList.toggle("dropmenu--open");
+					dropIcon.classList.toggle("drop-icon--active");
+				};
+
+				document.addEventListener("click", function(event) {
+					if (!dropmenu.contains(event.target) && !dropbtn.contains(event.target)) {
+						dropmenu.classList.remove("dropmenu--open");
+						dropIcon.classList.remove("drop-icon--active");
+					}
+				});
+				let lastWidth = window.innerWidth;
+				window.addEventListener("resize", function(event) {
+					const currentWidth = window.innerWidth;
+					if (currentWidth !== lastWidth) {
+						dropmenu.classList.remove("dropmenu--open");
+						dropIcon.classList.remove("drop-icon--active");
+						lastWidth = currentWidth;
+					}
+				});
+			}
+
+			initDropdown("dropbtn", "dropmenu", ".catalog__filter");
+			initDropdown("dropbtn1", "dropmenu1", ".catalog__sort-btn");
+			initDropdown("dropbtn2", "dropmenu2", ".catalog__filter");
+			initDropdown("dropbtn3", "dropmenu3", ".catalog__filter");
+			initDropdown("dropbtn4", "dropmenu4", ".catalog__filter");
+			initDropdown("dropbtn5", "dropmenu5", ".catalog__filter");
+
+			const options = document.querySelectorAll(".option");
+
+			options.forEach(option => {
+				option.addEventListener("click", function() {
+					dropbtn1.textContent = option.textContent;
+					option.getAttribute("data-value");
+					dropmenu1.classList.remove("dropmenu--open");
+					dropIcon.classList.remove("drop-icon--active");
+				});
+			});
+		</script>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

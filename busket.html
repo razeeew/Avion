@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Avion</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__top">
+				<div class="header__search header__mob__right">
+					<button class="header__search">
+						<img src="./img/icons/Search.svg" alt="" />
+					</button>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon">
+							<div class="mobile-nav">
+								<ul class="mobile-nav__list">
+									<li class="mobile-nav__header__icons">
+										<a href="./busket.html" class="header__shopping"> <img src="./img/icons/Shopping--cart.svg" alt=""/></a>
+
+										<a href="#!" class="header__avatar"> <img src="./img/icons/User--avatar.svg" alt=""/></a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Plant pots</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Ceramics</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Tables</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Chairs</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Crockery</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Tableware</a>
+									</li>
+									<li class="mobile-nav__item">
+										<a href="#" class="nav__link">Cutlery</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</button>
+				</div>
+
+				<a href="./index.html" class="header__title">Avion</a>
+				<div class="header__icons">
+					<a href="./busket.html" class="header__shopping"> <img src="./img/icons/Shopping--cart.svg" alt=""/></a>
+
+					<a href="#!" class="header__avatar"> <img src="./img/icons/User--avatar.svg" alt=""/></a>
+				</div>
+			</div>
+			<div class="header__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Plant pots</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Ceramics</a>
+					</li>
+					<li class="nav__item"><a href="#" class="nav__link">Tables</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Chairs</a></li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Crockery</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Tableware</a>
+					</li>
+					<li class="nav__item"><a href="#" class="nav__link">Cutlery</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="container">
+				<h1 class="busket__title">Your shopping cart</h1>
+				<div class="busket__wrapper">
+					<div class="busket__grid">
+						<div class="busket__name-col">Product</div>
+						<div class="busket__name-col">Quantity</div>
+						<div class="busket__name-col text-align-right">
+							Total
+						</div>
+						<div class="busket__item">
+							<picture>
+								<img src="./img/busket/ProductImage.jpg" alt="" />
+							</picture>
+							<div class="busket__des">
+								<h3>Graystone vase</h3>
+								<p>
+									A&#160;timeless ceramic vase with a&#160;tri color grey glaze.
+								</p>
+								<b id="price1" class="busket__price">
+									&#163;85
+								</b>
+							</div>
+						</div>
+						<div class="amount__input input__busket">
+							<button id="decrease1" class="amount__changer">
+								&#160;&#8212;
+							</button>
+							<input class="busket__check" id="amount1" type="number" value="1" min="1" max="99" readonly />
+							<button id="increase1" class="amount__changer">
+								+
+							</button>
+						</div>
+						<p id="result1" class="busket__price-col text-align-right"></p>
+						<div class="busket__item">
+							<picture>
+								<img src="./img/busket/ProductImage2.jpg" alt="" />
+							</picture>
+							<div class="busket__des">
+								<h3>Basic white vase</h3>
+								<p>
+									Beautiful and simple this is&#160;one for the classics
+								</p>
+								<b id="price2" class="busket__price">
+									&#163;105
+								</b>
+							</div>
+						</div>
+						<div class="amount__input input__busket">
+							<button id="decrease2" class="amount__changer">
+								&#160;&#8212;
+							</button>
+							<input class="busket__check" id="amount2" type="number" value="1" min="1" max="99" readonly />
+							<button id="increase2" class="amount__changer">
+								+
+							</button>
+						</div>
+						<p id="result2" class="busket__price-col text-align-right"></p>
+					</div>
+					<div class="busket__footer">
+						<div class="busket__total">
+							<h3>Subtotal</h3>
+							<p id="result" class="busket__total-price"></p>
+						</div>
+						<p class="taxes">
+							Taxes and shipping calculated at&#160;checkout
+						</p>
+						<button class="busket__btn">Checkout</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footter__wrapper">
+					<div class="footer__top">
+						<ul class="footer__list">
+							<li class="footer__title"><p>Menu</p></li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">New arrivals</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Best sellers</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Recently viewed</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Popular this week</a>
+							</li>
+							<li class="footer__item">
+								<a href="./catalog.html" class="footer__link">All products</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__title"><p>Categories</p></li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Crockery</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Furniture</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Homeware</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Plant pots</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Chairs</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Crockery</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__title"><p>Our company</p></li>
+							<li class="footer__item">
+								<a href="./about.html" class="footer__link">About us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Vacancies</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Contact us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Privacy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#!" class="footer__link">Returns policy</a>
+							</li>
+						</ul>
+						<form action="" class="footer__form">
+							<p class="footer__title">Join our mailing list</p>
+							<div class="form__btns">
+								<input type="email" required placeholder="your@email.com" />
+								<button class="sign__footer">Sign up</button>
+							</div>
+						</form>
+					</div>
+					<div class="footer__footer">
+						<p class="footer__copyright">
+							Copyright 2022 Avion LTD
+						</p>
+						<ul class="footer__social">
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--linkedin.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--facebook.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--skype.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--twitter.svg" alt=""/></a>
+							</li>
+							<li class="footer__icon">
+								<a href="#!"><img src="./img/socials/PropertyLogo--pinterest.svg" alt=""/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
